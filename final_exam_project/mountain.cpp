@@ -3,8 +3,7 @@
 
 
 int Mountain::toMters (int thElvation) { 
-    int cnvrsion = (thElvation/3.2808);
-    return cnvrsion;
+    return thElvation/3.2808;
  }
 
 string Mountain::getmntainName() { 

@@ -1,6 +1,7 @@
 #ifndef MOUNTAIN_H
 #define MOUNTAIN_H
 #include <string> 
+#include <vector>
 #include <iostream>
 
 using std::string; 

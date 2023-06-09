@@ -1,3 +1,13 @@
+/* 
+    File: main.cpp 
+    Description: Program simulates a small database for mountains. For each mountain, it stores the mountain's name, the country it's in,and its elevation in feet. Within the 'main' function, the program creates a vector of 'Mountain' objects, each initialized with data for a specific mountain.
+    It also includes a function 'minElevation' which calculates and returns the minimum elevation among all the mountains in the vector. The 'main' function then iterates over the vector of 'Mountain' objects and prints out the details of each mountain (its name, country, and elevation in both feet and meters)
+    FInally, the program prints out the elevation and name of the shortest mountain by using the 'minElevation' function to find the minimum elevation from all the mountains, and then iterating over the vector again to find the mountain with that elevation 
+    Email: eduardd3899@student.vvc.edu
+    Date: 06/9/23
+    Note: "g++ main.cpp mountain.cpp -o main" should be added to terminal after "make main" and then run by "./main"
+
+*/
 #include <iostream>
 #include <vector>
 #include <iomanip>

@@ -1,3 +1,9 @@
+/* 
+    File: mountain.cpp
+    Description: Contains the definitions of the defined member functions in 'mountain.h'. 
+    Email: eduardd3899@student.vvc.edu
+    Date: 06/9/23
+*/
 #include "mountain.h"
 #include <iostream> 
 
